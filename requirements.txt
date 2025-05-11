@@ -1,0 +1,20 @@
+# 核心依赖
+torch>=1.10.0
+torchvision>=0.11.0
+opencv-python>=4.5.0
+numpy>=1.20.0
+matplotlib>=3.4.0
+pillow>=8.0.0
+tqdm>=4.62.0
+ultralytics>=8.0.0
+onnx>=1.10.0
+onnxruntime>=1.10.0
+
+# UI依赖 - 选择其中一个安装
+# 如果安装遇到代理问题，请尝试以下方法：
+# 1. 使用国内镜像源: pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PySide6>=6.2.0
+# 2. 或者: pip install -i https://pypi.tuna.tsinghua.edu.cn/simple PyQt5>=5.15.0
+# 3. 或者临时关闭代理后安装
+# 注意: 项目代码已适配PyQt5，如果使用PySide6需要修改导入语句
+PyQt5>=5.15.0  # 使用PyQt5替代PySide6，因为项目代码已适配PyQt5
+PyQtChart>=5.15.0  # PyQt5的图表组件，需要单独安装
