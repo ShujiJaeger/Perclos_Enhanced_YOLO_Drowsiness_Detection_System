@@ -31,7 +31,7 @@
 ## 安装与使用
 1. 克隆项目到本地
 ```bash
-git clone https://github.com/yourusername/Perclos-Enhanced-YOLO-Drowsiness-Detection-System.git
+git clone https://github.com/ShujiJaeger/Perclos-Enhanced-YOLO-Drowsiness-Detection-System.git
 cd Perclos-Enhanced-YOLO-Drowsiness-Detection-System
 ```
 
